@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe App</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="recipeIcon.jpg" alt="Logo">
+            </div>
+            <p id="tasty">Tasty<span>Tracks</span></p>
+    
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#featured-recipes">Featured Recipes</a></li>
+                <li><a href="#composepg">Compose Recipe</a></li>
+                <li><a href="#recipes">Recipes</a></li>
+                <li><a href="#contact-form">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="hero">
+            <img src="https://cms-b-assets.familysearch.org/dims4/default/4069e21/2147483647/strip/true/crop/800x500+0+0/resize/800x500!/format/webp/quality/90/?url=https%3A%2F%2Ffamilysearch-brightspot.s3.amazonaws.com%2F2d%2F7a%2Ff452bba9d5c8581030392bd4e252%2Fenglish-breakfast.jpg" alt="">
+            <div class="heros">
+                <h1>TASTY TRACKS</h1>
+                <p>Discover, Create, and Share Delicious Recipes</p>
+                <br><br><br><br><br><br>
+                <li><a href="#recipes"><button class="heros-btn">Recipes</button></a></li>
+            </div>
+        </section>
+        <section id="featured-recipes">
+            <h2>Featured Recipes</h2>
+            <div class="recipe-card">
+                <img src="https://www.themealdb.com/images/media/meals/urzj1d1587670726.jpg" alt="Recipe 1">
+                <h3 class="name">Big Mac</h3>
+            </div>
+            <div class="recipe-card">
+                <img src="https://www.themealdb.com/images/media/meals/qtuwxu1468233098.jpg" alt="Recipe 2">
+                <h3>Chicken Enchilada Casserole</h3>
+            </div>
+            <div class="recipe-card">
+                <img src="https://www.themealdb.com/images/media/meals/uttrxw1511637813.jpg" alt="Recipe 2">
+                <h3>Lancashire Hotpot</h3>
+            </div>
+            <div class="recipe-card">
+                <img src="https://www.themealdb.com/images/media/meals/rwuyqx1511383174.jpg" alt="Recipe 3">
+                <h3>Fluffy Pancakes</h3>
+            </div>
+            <div class="recipe-card">
+                <img src="https://www.themealdb.com/images/media/meals/1520084413.jpg" alt="Recipe 4">
+                <h3>Escovitch Fish</h3>
+            </div>
+            <div class="recipe-card">
+                <img src="https://www.themealdb.com/images/media/meals/1550440197.jpg" alt="Recipe 5">
+                <h3>Salmon Eggs Benedict</h3>
+            </div>
+            <div class="recipe-card">
+                <img src="https://www.themealdb.com/images/media/meals/xqwwpy1483908697.jpg" alt="Recipe 6">
+                <h3>Bread and Butter Pudding</h3>
+            </div>
+            <div class="recipe-card">
+                <img src="https://www.themealdb.com/images/media/meals/uyqrrv1511553350.jpg" alt="Recipe 2">
+                <h3>Beef Dumpling Stew</h3>
+            </div>
+            <div class="recipe-card">
+                <img src="https://www.themealdb.com/images/media/meals/va668f1683209318.jpg">
+                <h3>Tortang Talong</h3>
+            </div>
+        </section>
+        <section id="recipes">
+            <div class="container">
+                <div class="meal-wrapper">
+                    <div class="meal-search">
+                        <h2 class="title">Hey.. Type A Dish Name Here</h2>
+                        <div class="meal-search-box">
+                            <input type="text" class="search-control" placeholder="Enter A Dish Name" id="search-input">
+                            <button type="button" class="search-btn btn" id="search-btn">
+                                Search
+                            </button>
+                        </div>
+                    </div>
+                    <div class="meal-result">
+                        <h2 class="title">Your Search Results:</h2>
+                        <div id="meal"></div>
+                    </div>
+                    <div class="meal-details">
+                        <!-- recipe close btn -->
+                        <button type="button" class="btn recipe-close-btn" id="recipe-close-btn">
+                            <i class="fas fa-times"></i>
+                        </button>
+                        <!-- meal content -->
+                        <div class="meal-details-content">
+                            <h2 class="recipe-title">Meals Name Here</h2>
+                            <p class="recipe-category">Category Name</p>
+                            <div class="recipe-instruct">
+                                <h3>Instructions:</h3>
+                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quo blanditiis quis accusantium natus! Porro, reiciendis maiores molestiae distinctio veniam ratione ex provident ipsa, soluta suscipit quam eos velit autem iste!</p>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet aliquam voluptatibus ad obcaecati magnam, esse numquam nisi ut adipisci in?</p>
+                            </div>
+                            <div class="recipe-meal-img">
+                                <img src="food.jpg" alt="">
+                            </div>
+                            <div class="recipe-link">
+                                <a href="#" target="_blank">Watch Video</a>
+                            </div>
+                            </div>
+                            <button id="scroll-down-btn">Scroll Down</button>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="composepg">
+            <h2>COMPOSE RECIPE</h2>
+            <form id="recipe-form">
+                <div class="form-group">
+                    <label for="title">Recipe Title</label>
+                    <input class="input2" type="text" id="title" placeholder="Enter recipe title" required>
+                </div>
+                <div class="form-group">
+                    <label for="ingredients">Ingredients</label>
+                    <textarea id="ingredients" placeholder="Enter recipe ingredients" required></textarea>
+                </div>
+                <div class="form-group">
+                    <label for="instructions">Instructions</label>
+                    <textarea id="instructions" placeholder="Enter recipe instructions" required></textarea>
+                </div>
+                <div class="form-group">
+                    <button type="submit">Save</button>
+                </div>
+            </form>
+        </section>
+        <section id="added-recipes">
+            <h2>MANAGE RECIPES</h2>
+            <div id="featured-recipe-cards" class="recipe-cards"></div>
+            <button type="button" id="clear-recipes-btn">Clear Saved Recipes</button>
+        </section>
+        <section id="contact-form">
+            <h2>GET IN TOUCH</h2>
+            <form>
+                <div class="form-group">
+                    <label for="name">Your Name</label>
+                    <input class="input2" type="text" id="name" placeholder="Enter your name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Your Email</label>
+                    <input class="input2" type="email" id="email" placeholder="Enter your email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" placeholder="Enter your message" required></textarea>
+                </div>
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <div class="footercont">
+            <div class="social-media">
+                <a href="#"><i class="fa fa-facebook"></i></a>
+                <a href="#"><i class="fa fa-twitter"></i></a>
+                <a href="#"><i class="fa fa-instagram"></i></a>
+                <a href="#"><i class="fa fa-linkedin"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

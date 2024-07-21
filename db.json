@@ -1,0 +1,89 @@
+{
+    "posts": [
+      {
+        "id": 0,
+        "title": "json-server",
+        "author": "typicode"
+      }
+    ],
+    "comments": [
+      {
+        "id": 1,
+        "body": "some comment",
+        "postId": 1
+      }
+    ],
+    "profile": {
+      "name": "typicode"
+    },
+    "recipes": [
+      {
+        "id": 2,
+        "title": "Big Mac",
+        "ingredients": "Burger patties, sesame seed buns, lettuce, cheese, pickles, onions, special sauce",
+        "instructions": "1. Grill the burger patties. 2. Toast the buns. 3. Assemble the burger with lettuce, cheese, pickles, onions, and special sauce."
+      },
+      {
+        "id": 3,
+        "title": "Chicken Enchilada Casserole",
+        "ingredients": "Cooked chicken, enchilada sauce, corn tortillas, shredded cheese, black beans, diced tomatoes, sour cream, cilantro",
+        "instructions": "1. Preheat oven to 350°F (175°C). 2. In a baking dish, layer tortillas, chicken, beans, tomatoes, and sauce. 3. Top with cheese and bake until bubbly. 4. Garnish with sour cream and cilantro."
+      },
+      {
+        "id": 4,
+        "title": "Lancashire Hotpot",
+        "ingredients": "Lamb, potatoes, onions, carrots, beef stock, Worcestershire sauce",
+        "instructions": "1. Brown the lamb in a hot pot. 2. Layer with vegetables and potatoes. 3. Pour over stock and Worcestershire sauce. 4. Cook slowly until lamb is tender."
+      },
+      {
+        "id": 5,
+        "title": "Fluffy Pancakes",
+        "ingredients": "Flour, milk, eggs, baking powder, sugar, butter",
+        "instructions": "1. Mix dry ingredients. 2. Add wet ingredients and mix until smooth. 3. Cook on a greased griddle until golden brown on both sides."
+      },
+      {
+        "id": 6,
+        "title": "Escovitch Fish",
+        "ingredients": "Whole fish, vinegar, carrots, onions, bell peppers, Scotch bonnet peppers, allspice",
+        "instructions": "1. Fry the fish until golden brown. 2. Make a pickling sauce with vinegar, peppers, and spices. 3. Pour the sauce over the fried fish and vegetables."
+      },
+      {
+        "id": 7,
+        "title": "Beef Stroganoff",
+        "ingredients": "Beef tenderloin, mushrooms, onion, garlic, sour cream, beef broth, butter, paprika, egg noodles",
+        "instructions": "1. Sauté beef and onions. 2. Add mushrooms and garlic, cook until tender. 3. Stir in beef broth and sour cream. 4. Serve over cooked egg noodles."
+      },
+      {
+        "id": 8,
+        "title": "Caprese Salad",
+        "ingredients": "Tomatoes, fresh mozzarella cheese, fresh basil leaves, balsamic vinegar, olive oil, salt, pepper",
+        "instructions": "1. Slice tomatoes and mozzarella cheese. 2. Arrange on a plate with fresh basil leaves. 3. Drizzle with balsamic vinegar and olive oil. 4. Season with salt and pepper."
+      },
+      {
+        "id": 9,
+        "title": "Chocolate Chip Cookies",
+        "ingredients": "Butter, sugar, brown sugar, vanilla extract, eggs, flour, baking soda, salt, chocolate chips",
+        "instructions": "1. Cream butter, sugars, and vanilla. 2. Beat in eggs. 3. Combine dry ingredients, gradually add to creamed mixture. 4. Stir in chocolate chips. 5. Drop by rounded spoonfuls onto ungreased baking sheets. 6. Bake at 375°F (190°C) for 8-10 minutes or until golden brown."
+      },
+      {
+        "id": 10,
+        "title": "Vegetable Stir Fry",
+        "ingredients": "Assorted vegetables (bell peppers, broccoli, carrots, snap peas, mushrooms), soy sauce, garlic, ginger, vegetable oil, rice",
+        "instructions": "1. Heat oil in a large skillet or wok. 2. Add garlic and ginger, cook until fragrant. 3. Add vegetables and stir-fry until tender-crisp. 4. Stir in soy sauce. 5. Serve over cooked rice."
+      },
+      {
+        "id": 11,
+        "title": "Caesar Salad",
+        "ingredients": "Romaine lettuce, Caesar dressing, croutons, Parmesan cheese, lemon juice, Worcestershire sauce, garlic, olive oil",
+        "instructions": "1. Toss torn lettuce with dressing, lemon juice, Worcestershire sauce, garlic, and olive oil. 2. Top with croutons and shaved Parmesan cheese. 3. Serve chilled."
+      },
+      {
+        "id": 12,
+        "title": "Spaghetti Carbonara",
+        "ingredients": "Spaghetti pasta, bacon or pancetta, eggs, Parmesan cheese, black pepper",
+        "instructions": "1. Cook pasta according to package instructions. 2. Sauté bacon until crispy. 3. Whisk eggs and Parmesan cheese. 4. Toss hot pasta with egg mixture and bacon. 5. Season with black pepper."
+      }
+    ]
+  }
+  
+  
